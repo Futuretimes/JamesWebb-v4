@@ -7,7 +7,6 @@
 .logo {
     height: 60px;
 }
-
 header {
     margin-top: 105px;
 }
@@ -19,31 +18,42 @@ header {
     font-weight: bold !important;
 }
 .bg-gra:hover {
-    transform: scale(1.1);
     color: rgb(0, 200, 255) !important;
 }
-/*formulario*/
-.formularioCss {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    border: 2px solid rgb(51, 50, 50);
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
+#parrafoText {
+    background-color: rgb(187, 187, 187);
+    border: 5px solid rgb(35, 35, 35);
+    border-radius: 5px;
 }
-/*fin formulario*/
 /*footer*/
 .footerText {
-    display: flex;
-    background-color: rgb(51, 50, 50);
     color: rgb(255, 255, 255);
     font-weight: bold;
-    justify-content: center;
 }
 .footerText a {
     text-decoration: none;
     color: rgb(0, 200, 255);
+}
+.footerIcons {
+    display: flex;
+    background-color: rgb(51, 50, 50);
+    justify-content: center;
+}
+.bi-facebook:hover {
+    color: #3b5998;
+}
+.bi-instagram:hover {
+    color: #8a3ab9;
+}
+.bi-whatsapp:hover {
+    color: #25D366;
+}
+.bi-instagram {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.iconsFooter {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
 }
 /*fin footer*/
